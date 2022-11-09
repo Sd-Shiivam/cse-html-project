@@ -1,0 +1,360 @@
+
+
+body {
+	margin: 0;
+	background: radial-gradient(ellipse at bottom,#1f252e,#111827) fixed;
+}
+
+#navbar {
+	background-color: transparent;
+	min-width: 100%;
+	height: 60px;
+	position: absolute;
+	z-index: 2;
+}
+
+
+#nav_list {
+	display: flex;
+	float: right;
+	margin-top: 1.5%;
+}
+
+#socal {
+	position: absolute;
+	margin-left: 80%;
+	cursor: pointer
+}
+#log-text{
+	text-shadow:0px 3px 8px #7e57c2 ;
+	padding-left: 15px;
+	font-size: 30px;
+	display: block;
+	cursor: pointer;
+	font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	float: left;
+}
+.list_item {
+	margin-right: 40px;
+	margin-top: 10px;
+	list-style-type: none;
+	cursor: pointer;
+	color: #fff
+}
+#banner-section{
+    background-image: radial-gradient(circle at top left,rgba(45,0,136,.5333333333333333) 0,hsla(0,0%,100%,0) 50%);
+}
+
+#banner {
+	width: 100%;
+	height: 620px;
+	z-index: 1;
+	position: relative;
+	padding-top: 8.5%;
+	background-image: url(/statics/banner-1.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+#top-bar {
+	width: 100%;
+	height: 30px;
+	padding-top: 15px;
+	border-radius: 15px 15px 0 0;
+	background-color: #7e57c2
+}
+
+#form {
+	height: 500px;
+	position: relative;
+	width: 400px;
+	margin-top: 0;
+	overflow: hidden;
+	margin-left: 60%;
+	border-radius: 15px;
+	background-color: #fff;
+	box-shadow: rgba(50, 50, 93, .25) 0 50px 100px -20px, rgba(0, 0, 0, .3) 0 30px 60px -30px, rgba(10, 37, 64, .35) 0 -2px 6px 0 inset
+}
+
+.span1 {
+	color: #fff;
+	margin-left: 25%;
+	cursor: pointer;
+	border: 0;
+	background-color: transparent
+}
+
+#login-div {
+	height: 100%;
+	width: 100%;
+	display: block
+}
+
+#welc-msg {
+	font-family: monospace;
+	font-size: 30px;
+	margin-left: 25%;
+	margin-top: 20%;
+	margin-bottom: 40px;
+	display: block
+}
+
+.input-box {
+	display: block;
+	border: 2px solid #3b3939;
+	width: 60%;
+	height: 30px;
+	margin-bottom: 10px;
+	margin-left: 18%;
+	border-radius: 5px
+}
+
+.input-box:hover {
+	width: 62%;
+	height: 32px;
+	margin-left: 17%;
+	box-shadow: rgba(0, 0, 0, .35) 0 5px 15px
+}
+
+#login-btn {
+	display: block;
+	box-shadow: #7e57c2 0px 2px 8px 0px;
+	border: 0px;
+	width: 35%;
+	color: #f5f5f5;
+	height: 40px;
+	margin-top: 10%;
+	margin-left: 30%;
+	border-radius: 5px;
+	background-color: #7e57c2;
+}
+
+#login-btn:hover {
+	box-shadow: #313739 0 5px 15px
+}
+
+#forget {
+	margin-left: 50%;
+	cursor: pointer
+}
+
+#terms {
+	margin-left: 20%;
+	font-family: monospace;
+	font-size: 14px;
+	display: inline-flex;
+	cursor: pointer
+}
+
+#register-div {
+	height: 100%;
+	width: 100%;
+	display: none
+}
+
+#reg-msg {
+	font-family: monospace;
+	font-size: 23px;
+	margin-left: 15%;
+	margin-top: 15%;
+	margin-bottom: 40px;
+	display: block
+}
+
+#home-details {
+	position: relative;
+	padding-top: 2%;
+	padding: 5%;
+	height: 400px;
+	font-size: 20px;
+	color: #000;
+	display: block;
+}
+
+
+#rep-home{
+    display: none;
+}
+#nav-float{
+    display: none;
+}
+.left-div{
+	width:50% ;
+	float: left;
+}
+.right-div{
+	width:50% ;
+	float: right;
+	display: flex;
+	margin-top: -20px;
+	justify-content: center;
+}
+.mt{
+	margin-top: 50px;
+}
+#about-head{
+	text-align: center;
+	font-size: 40px;
+	color: #7e57c2;
+	text-shadow:0px 2px 8px #7e57c2 ;
+}
+#about-body{
+	padding-left: 10%;
+	text-shadow:0px 2px 8px #7e57c2 ;
+}
+#latest-event{
+	display: flex;
+	position: relative;
+	justify-content: center;
+	width: 100%;
+}
+.slider {
+	width: 1200px;
+	text-align: center;
+	overflow: hidden;
+  }
+  
+.slides {
+	display: flex;
+	overflow-x: auto;
+	margin-bottom: 50px;
+	scroll-snap-type: x mandatory;
+	box-shadow: rgba(114, 171, 227, 0.527) 0px 8px 9px;
+	scroll-behavior: smooth;
+	-webkit-overflow-scrolling: touch;
+}
+.slides::-webkit-scrollbar {
+	width: 10px;
+	height: 10px;
+}
+.slides::-webkit-scrollbar-thumb {
+	background: blueviolet;
+	border-radius: 10px;
+}
+.slides::-webkit-scrollbar-track {
+	background: gray;
+	border-radius: 10px;
+}
+.slides > div {
+	scroll-snap-align: start;
+	flex-shrink: 0;
+	width: 1080px;
+	height: 500px;
+	margin-right: 50px;
+	border-radius: 15px;
+	background: #7e57c2;
+	transform-origin: center center;
+	transform: scale(1);
+	transition: transform 0.5s;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	text-align: left;
+	font-size: 18px;
+	padding: 60px;
+  }
+
+.slides > div>h4{
+	color: red;
+	margin-right: 50px;
+	font-size: 25px;
+}
+
+#about-page-b{
+	background-image: radial-gradient(circle at top left,rgba(45,0,136,.5333333333333333) 0,hsla(0,0%,100%,0) 50%);
+	width: 100%;
+	height: 700px;
+	position: relative;
+	padding-top: 8.5%;
+	padding-bottom: 8.5%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+#about-page-b > div{
+	border: 2px solid rebeccapurple;
+	border-radius: 10px;
+	margin-left: 50px;
+	margin-right: 50px;
+	box-shadow: rgba(114, 171, 227, 0.527) 3px 3px 9px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 10px;
+	padding-bottom: 60px;
+	height: 650px;
+}
+.cont-detail{
+	display: flex;
+	justify-content: center;
+	float: left;
+	margin-left: 100px;
+	width: 200px;
+	height: 200px;
+}
+.cont-detail > img{
+	width: 40px;
+	height: 40px;
+	margin-right: 20px;
+	margin-top: -8px;
+}
+
+@media only screen and (max-width: 700px) {
+    #nav_list{
+        display: none;
+    }
+    #banner{
+        display: none;
+    }
+    #form{
+        margin-left: 3%;
+        margin-top: 20%;
+    }
+    nav #navlogo{
+        display: none;
+    }
+    #rep-home{
+        display: block;
+        background-color: black;
+        height: 600px;
+        width: 100%;
+        padding-top: 70%;
+        position: relative;
+    }
+    #title{
+        display: block;
+        color: #fefefe;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 300;
+        font-size: 50px;
+        line-height:1.3;
+        margin-left: 15%;
+        text-shadow: #FC0 3px 0 20px;
+    }
+    #rep-bar{
+        height: 2px;
+        width: 200px;
+        background-color: red;
+        display: block;
+        margin-top: 5%;
+        margin-left: 25%;
+    }
+    #title-dec{
+        display: block;
+        color: #fefefe;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 70;
+        font-size: 30px;
+        text-align: center;
+        line-height:1;
+        margin-left: 2%;
+        padding: 7%;
+        text-shadow: #FC0 3px 0 20px;
+    }
+    #home-details{
+        display: block;
+        position: relative;
+    }
+
+
+  }
