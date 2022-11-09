@@ -1,19 +1,15 @@
 
 <p align="center">
-  <img src="https://github.com/Sd-Shivam/Fitness_Club-Template/blob/main/backend/static/logo.png?raw=true" alt="STA" width="240" />
-
-  <p align="center">Fitness Html Template </p>
+  <img src="https://raw.githubusercontent.com/Sd-Shiivam/Fitness_Club-Template/master/statics/logo.ico" alt="stayfit" width="130" />
 </p>
 
   ```
-  Simple Minimal fitness club html template.
+  Fitness club HTML template with a simple, minimalistic design.
   ```
 
 
 ## [👓]  Desktop View
-
-### [✔] Home page Pic
-[![Home page](https://raw.githubusercontent.com/Sd-Shiivam/Fitness_Club-Template/master/statics/readme.png)
+![Home page](https://raw.githubusercontent.com/Sd-Shiivam/Fitness_Club-Template/master/statics/readme.png)
 
 
    
