@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="/statics/main.css"> 
      
 </head>
-<body>
+<body> 
     <nav id="navbar">
         <div>
             <h3 id="log-text" onclick="window.location='/'">Fitness Club</h3>
@@ -22,8 +22,8 @@
             </span>
             <ul id="nav_list">
                 <li class="list_item" onclick="window.location='/about.html'">About</li>
-                <li class="list_item">Training</li>
-                <li class="list_item">Timetable</li>
+                <li class="list_item" >Training</li>
+                <li class="list_item" onclick="window.location='/timetable.html'">Timetable</li>
                 <li class="list_item">Nutrition</li>
                 <li class="list_item"> Gallery</li>
             </ul>
@@ -31,7 +31,7 @@
     </nav>
    <section id="about-page-b">
        <div>
-        <h4 id="about-head">About us</h4>
+        <h4 id="head-txt">About us</h4>
         <div class="cont-detail">
             <img src="./statics/marker.png" alt="location">
             phagwara LPU
@@ -48,14 +48,23 @@
             <img src="./statics/globe.png" alt="location" >
             www.stay-fit.com
         </div>
-        <div class="left-div mt">
-
+        <div class="left-div mt contant-ct" id="contact-form">
+            <pre>
+                <span id="war-con" style="display:none;color: red;">*Please Fill the form complitly</span>
+                <input class="con-inp" type="text" placeholder="Name*">
+                <input class="con-inp" type="email" placeholder="Email-Id*">
+                <input class="con-inp" type="number" placeholder="Phonenumber*">
+                <input class="con-inp" type="text" placeholder="Message*">
+                <button onclick="contact_save()">Submit</button>
+            </pre>
         </div>
         <div class="right-div mt">
-
+            <iframe id="map-lpu" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6696.810272175717!2d75.7008356382244!3d31.25480791914925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391a5f5e9c489cf3%3A0x4049a5409d53c300!2sLovely%20Professional%20University!5e0!3m2!1sen!2sin!4v1668339664986!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </div>
    </section>
 </body>
+
 <script src="/statics/main.js"></script>
+
 </html>
