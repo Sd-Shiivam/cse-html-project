@@ -53,7 +53,7 @@ body::-webkit-scrollbar{
 	z-index: 1;
 	position: relative;
 	padding-top: 8.5%;
-	background-image: url('banner-1.png');
+	background-image: url('/statics/banner-1.png');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
