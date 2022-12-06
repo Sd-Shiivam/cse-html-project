@@ -383,8 +383,8 @@ body::-webkit-scrollbar{
 	margin-left: 5vh;
 	margin-right: 5vh;
 	box-shadow: rgba(114, 171, 227, 0.527) 3px 3px 9px;
-	padding-left: 5vh;
-	padding-right: 5vh;
+	padding-left: 3vh;
+	padding-right: 3vh;
 	padding-top: 1vh;
 	padding-bottom: 6vh;
 	height: 60vh;
