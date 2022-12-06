@@ -50,8 +50,8 @@ body::-webkit-scrollbar{
 }
 
 #banner {
-	width: 100%;
-	height: 700px;
+    height: 100vh;
+    width:  100vw;
 	z-index: 1;
 	position: relative;
 	padding-top: 8.5%;
@@ -270,7 +270,7 @@ body::-webkit-scrollbar{
 #about-page-b{
 	background-image: radial-gradient(circle at top left,rgba(45,0,136,.5333333333333333) 0,hsla(0,0%,100%,0) 50%);
 	width: 100%;
-	height: 900px;
+	height: 90vh;
 	position: relative;
 	padding-top: 8.5%;
 	padding-bottom: 8.5%;
@@ -281,26 +281,32 @@ body::-webkit-scrollbar{
 #about-page-b > div{
 	border: 2px solid rebeccapurple;
 	border-radius: 10px;
-	margin-left: 50px;
-	margin-right: 50px;
+	margin-left: 5vh;
+	margin-right: 5vh;
 	box-shadow: rgba(114, 171, 227, 0.527) 3px 3px 9px;
-	padding-left: 50px;
-	padding-right: 50px;
-	padding-top: 10px;
-	padding-bottom: 60px;
-	height: 800px;
+	padding-left: 5vh;
+	padding-right: 5vh;
+	padding-top: 1vh;
+	padding-bottom: 1vh;
+	overflow-y: scroll;
+	height: 95vh;
+}
+#about-page-b >div::-webkit-scrollbar{
+	display: none;
 }
 #map-lpu{
 	border-radius: 20px;
+	height: 40vh;
+	width: 60vh;
 	box-shadow: rgba(114, 171, 227, 0.527) 3px 3px 9px;
 }
 .cont-detail{
 	display: flex;
 	justify-content: center;
 	float: left;
-	margin-left: 125px;
-	width: 200px;
-	height: 200px;
+	margin-left: 18vh;
+	width: 20vh;
+	height: 20vh;
 }
 .cont-detail > img{
 	width: 40px;
@@ -361,9 +367,9 @@ body::-webkit-scrollbar{
 #timetable-page-b > h4{
 	display: flex;
 	justify-content: center;
-	margin-top: -20px;
+	margin-top: -2vh;
 	font-size: 40px;
-	padding-bottom: 30px;
+	padding-bottom: 3vh;
 	border-bottom: 2px solid rebeccapurple;
 	padding-top: -1%;
 }
@@ -374,14 +380,14 @@ body::-webkit-scrollbar{
 	position: relative;
 	justify-content:flex-start;
 	flex-direction: column;
-	margin-left: 50px;
-	margin-right: 50px;
+	margin-left: 5vh;
+	margin-right: 5vh;
 	box-shadow: rgba(114, 171, 227, 0.527) 3px 3px 9px;
-	padding-left: 50px;
-	padding-right: 50px;
-	padding-top: 10px;
-	padding-bottom: 60px;
-	height: 550px;
+	padding-left: 5vh;
+	padding-right: 5vh;
+	padding-top: 1vh;
+	padding-bottom: 6vh;
+	height: 60vh;
 	overflow-y: scroll;
 }
 #timetable-page-b >div::-webkit-scrollbar{
@@ -392,26 +398,26 @@ body::-webkit-scrollbar{
 	width: 15%;
 	height: fit-content;
 	text-align: center;
-	padding: 10px;
+	padding: 1vh;
 	margin-left: 40%;
-	margin-top: 30px;
-	margin-bottom: 5px;
+	margin-top: 3vh;
+	margin-bottom: 0.3vh;
 	border-radius: 10px;
 }
 .b-dates >span:nth-child(1){
-	width: 13%;
-	height: 100%;
+	height: 5vh;
 	display: flex;
-	padding-top: 5px;
-	padding-left: 10px;
+	padding-top: 2vh;
 	float: left;
-	border-right:  2px solid rebeccapurple;
+	width: 1vh;
 }
 .b-dates >span:nth-child(2){
+	border-left:  2px solid rebeccapurple;
+	padding: 1vh;
 	display: flex;
 	float: right;
+	height: fit-content;
 	width: 80%;
-	height: 100%;
 }
 .b-dates{
 	border: 2px solid rebeccapurple;
@@ -436,14 +442,14 @@ body::-webkit-scrollbar{
 }
 #gallery-page-b>h4{
 	border-bottom: 2px solid rebeccapurple;
-	padding-bottom: 30px;
+	padding-bottom: 3vh;
 	margin-top: -60px;
 }
 #gallery-page-b>img{
-	margin: 30px;
-	width: 490px;
+	margin: 3vh;
+	width: 58vh;
 	position: relative;
-	height: 300px;
+	height: 34vh;
 	padding: 3px;
 	border: 2px solid rebeccapurple;
 	border-radius: 15px;
@@ -457,7 +463,7 @@ body::-webkit-scrollbar{
 	background-image: radial-gradient(circle at top left,rgba(45,0,136,.5333333333333333) 0,hsla(0,0%,100%,0) 50%);
 	width: 100%;
 	height: 100%;
-	min-height: 570px;
+	min-height: 57vh;
 	position: relative;
 	padding-top: 8.5%;
 	padding-bottom: 8.5%;
@@ -467,22 +473,22 @@ body::-webkit-scrollbar{
 }
 #nut-page-b>h4{
 	border-bottom: 2px solid rebeccapurple;
-	padding-bottom: 30px;
-	margin-top: -60px;
+	padding-bottom: 3vh;
+	margin-top: -6vh;
 }
 #nut-page-b>div{
 	margin: 30px;
 	width: 90%;
 	margin-left: 3%;
-	height: 300px;
-	padding: 25px;
+	min-height: 30vh;
+	padding: 4vh;
 	font-size: 20px;
 	border: 2px solid rebeccapurple;
 	border-radius: 15px;
 	box-shadow: rgba(114, 171, 227, 0.527) 3px 3px 9px;
 }
 
-@media only screen and (max-width: 700px) {
+/* @media only screen and (max-width: 700px) {
     #nav_list{
         display: none;
     }
@@ -516,7 +522,7 @@ body::-webkit-scrollbar{
     }
     #rep-bar{
         height: 2px;
-        width: 200px;
+        width: 200vh;
         background-color: red;
         display: block;
         margin-top: 5%;
@@ -540,4 +546,4 @@ body::-webkit-scrollbar{
     }
 
 
-  }
+  } */
