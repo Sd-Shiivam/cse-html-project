@@ -117,10 +117,7 @@ body::-webkit-scrollbar{
 }
 
 .input-box:hover {
-	width: 62%;
-	height: 32px;
-	margin-left: 17%;
-	box-shadow: rgba(0, 0, 0, .35) 0 5px 15px
+	transform: scale(1.09);
 }
 
 #login-btn {
