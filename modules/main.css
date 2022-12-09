@@ -21,11 +21,12 @@ body::-webkit-scrollbar{
 	display: flex;
 	float: right;
 	margin-top: 1.5%;
+	margin-right: 6vw;
 }
 
 #socal {
 	position: absolute;
-	margin-left: 75%;
+	margin-left: 80%;
 	cursor: pointer
 }
 #log-text{
@@ -171,8 +172,8 @@ body::-webkit-scrollbar{
 	position: relative;
 	padding-top: 2%;
 	padding: 5%;
-	height: 400px;
-	font-size: 20px;
+	height: 40vh;
+	font-size: 1.3vw;
 	color: #000;
 	display: block;
 }
@@ -213,10 +214,10 @@ body::-webkit-scrollbar{
 	display: flex;
 	position: relative;
 	justify-content: center;
-	width: 100%;
+	width: 100vw;
 }
 .slider {
-	width: 1200px;
+	width: 78.2vw;
 	text-align: center;
 	overflow: hidden;
   }
@@ -245,8 +246,8 @@ body::-webkit-scrollbar{
 .slides > div {
 	scroll-snap-align: start;
 	flex-shrink: 0;
-	width: 1080px;
-	height: 500px;
+	width: 70vw;
+	height: 70vh;
 	margin-right: 50px;
 	border-radius: 15px;
 	background: #7e57c2;
@@ -257,8 +258,8 @@ body::-webkit-scrollbar{
 	display: flex;
 	justify-content: center;
 	text-align: left;
-	font-size: 18px;
-	padding: 60px;
+	font-size: 1.3vw;
+	padding: 4vw;
   }
 
 .slides > div>h4{
@@ -486,6 +487,17 @@ body::-webkit-scrollbar{
 	border: 2px solid rebeccapurple;
 	border-radius: 15px;
 	box-shadow: rgba(114, 171, 227, 0.527) 3px 3px 9px;
+}
+
+#traning-page-b{
+	height: 100vh;
+	width: 100vw;
+	background-image: radial-gradient(circle at top left,rgba(45,0,136,.5333333333333333) 0,hsla(0,0%,100%,0) 50%);
+}
+#traning-page-b>h4{
+	border-bottom: 2px solid rebeccapurple;
+	padding-top: 60px;
+	margin-top: 0px;
 }
 
 /* @media only screen and (max-width: 700px) {
