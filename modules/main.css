@@ -237,10 +237,16 @@ body::-webkit-scrollbar{
 	background: gray;
 	border-radius: 10px;
 }
+.slides>div>img{
+	height: 70%;
+	display: block;
+
+}
 .slides > div {
 	scroll-snap-align: start;
 	flex-shrink: 0;
 	width: 70vw;
+	overflow: hidden;
 	height: 70vh;
 	margin-right: 50px;
 	border-radius: 15px;
@@ -250,6 +256,7 @@ body::-webkit-scrollbar{
 	transition: transform 0.5s;
 	position: relative;
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	text-align: left;
 	font-size: 1.3vw;
