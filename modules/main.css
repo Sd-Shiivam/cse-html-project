@@ -240,7 +240,7 @@ body::-webkit-scrollbar{
 .slides>div>img{
 	height: 70%;
 	display: block;
-
+	border-radius: 10px;
 }
 .slides > div {
 	scroll-snap-align: start;
@@ -267,6 +267,8 @@ body::-webkit-scrollbar{
 	color: red;
 	margin-right: 50px;
 	font-size: 25px;
+	display: flex;
+	justify-content: center;
 }
 
 #about-page-b{
