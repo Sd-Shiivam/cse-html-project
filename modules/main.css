@@ -239,6 +239,7 @@ body::-webkit-scrollbar{
 }
 .slides>div>img{
 	height: 70%;
+	background-position: center;
 	display: block;
 	border-radius: 10px;
 }
@@ -308,8 +309,8 @@ body::-webkit-scrollbar{
 	display: flex;
 	justify-content: center;
 	float: left;
-	margin-left: 18vh;
-	width: 20vh;
+	margin-left: 13vh;
+	width: 25vh;
 	height: 20vh;
 }
 .cont-detail > img{
@@ -409,7 +410,7 @@ body::-webkit-scrollbar{
 	border-radius: 10px;
 }
 .b-dates >span:nth-child(1){
-	height: 5vh;
+	min-height: 8vh;
 	display: flex;
 	padding-top: 2vh;
 	float: left;
