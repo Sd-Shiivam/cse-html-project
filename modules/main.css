@@ -19,6 +19,7 @@ body::-webkit-scrollbar{
 	display: flex;
 	margin-top: 1.5%;
 	float: right;
+	margin-right: 5%;
 }
 
 #socal {
