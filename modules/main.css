@@ -483,6 +483,7 @@ body::-webkit-scrollbar{
 }
 #nut-page-b>div{
 	margin: 30px;
+	overflow: hidden;
 	width: 90%;
 	margin-left: 3%;
 	min-height: 30vh;
@@ -492,7 +493,19 @@ body::-webkit-scrollbar{
 	border-radius: 15px;
 	box-shadow: rgba(114, 171, 227, 0.527) 3px 3px 9px;
 }
-
+#nut-page-b>div>span:nth-child(1)>img{
+	height: 25vh;
+}
+#nut-page-b>div>span:nth-child(1){
+	display: flex;
+	float: left;
+	width:20%;
+}
+#nut-page-b>div>span:nth-child(2){
+	display: flex;
+	float: right;
+	width: 70%;
+}
 #traning-page-b{
 	height: 100vh;
 	width: 100vw;
