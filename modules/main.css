@@ -545,7 +545,7 @@ body::-webkit-scrollbar{
 	margin: 1.5vh;
 }
 .traning-t-det>div{
-	width: 15vw;
+	width: 15%;
 	position: relative;
 	height: 10vh;
 	margin-right: 2vw;
@@ -556,8 +556,8 @@ body::-webkit-scrollbar{
 	box-shadow: rgba(78, 96, 232, 0.527) 3px 3px 9px;
 }
 .traning-t-det>p{
-	font-size: 1.2em;
-	overflow: scroll;
+	font-size: 1.5em;
+	overflow: hidden;
 }
 .traning-t-det>p::-webkit-scrollbar{
 	display: none;
