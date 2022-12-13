@@ -507,8 +507,10 @@ body::-webkit-scrollbar{
 	width: 70%;
 }
 #traning-page-b{
-	height: 100vh;
-	width: 100vw;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
 	background-image: radial-gradient(circle at top left,rgba(45,0,136,.5333333333333333) 0,hsla(0,0%,100%,0) 50%);
 }
 #traning-page-b>h4{
@@ -521,9 +523,11 @@ body::-webkit-scrollbar{
 }
 
 #body-tain-sect>div{
-	height: 10vh;
+	height: fit-content;
 	width: 90vw;
+	position: relative;
 	margin: 2vh;
+	display: block;
 }
 .left-train-dv{
 	display: flex;
@@ -557,6 +561,71 @@ body::-webkit-scrollbar{
 }
 .traning-t-det>p::-webkit-scrollbar{
 	display: none;
+}
+
+#pers-train{
+	padding: 5%;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	position: relative;
+}
+#pers-train>div{
+	display: flex;
+	overflow-x: auto;
+	scroll-snap-type: x mandatory;
+	box-shadow: rgba(114, 171, 227, 0.527) 0px 8px 9px;
+	scroll-behavior: smooth;
+	-webkit-overflow-scrolling: touch;
+
+}
+#pers-train>div::-webkit-scrollbar {
+	width: 10px;
+	height: 10px;
+}
+#pers-train>div::-webkit-scrollbar-thumb {
+	background: blueviolet;
+	border-radius: 10px;
+}
+#pers-train>div::-webkit-scrollbar-track {
+	background: gray;
+	border-radius: 10px;
+}
+#traning-page-b>h4{
+	width: 70vw;
+	margin-left: 15%;
+}
+
+.tran-profile{
+	scroll-snap-align: start;
+	width: 20;
+	height: 60vh;
+	padding: 3px;
+	overflow: hidden;
+	margin-left: 5vw;
+	border: 2px solid rebeccapurple;
+	border-radius: 15px;
+	box-shadow: rgba(114, 171, 227, 0.527) 3px 3px 9px;
+	scroll-snap-align: start;
+	flex-shrink: 0;
+	transform-origin: center center;
+	transform: scale(1);
+	transition: transform 0.5s;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	font-size: 1.3vw;
+	padding: 4vw;
+}
+.tran-profile>img{
+	height: 70%;
+	position: relative;
+}
+.tran-profile>div{
+	top: 3vh;
+	position: relative;
 }
 
 
