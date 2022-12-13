@@ -623,6 +623,7 @@ body::-webkit-scrollbar{
 .tran-profile>img{
 	height: 70%;
 	position: relative;
+	border-radius: 15px;
 }
 .tran-profile>div{
 	top: 3vh;
